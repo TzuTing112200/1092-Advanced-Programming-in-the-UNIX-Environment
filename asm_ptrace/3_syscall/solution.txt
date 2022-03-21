@@ -1,0 +1,5 @@
+修改範例程式 counter.c，將 PTRACE_SINGLESTEP 改成 PTRACE_SYSCALL，
+計算出 syscall 數量，得到結果 472786，
+因進入和離開 system call 都會觸發計算，所以答案要除 2。
+
+ASM{236393}

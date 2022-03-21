@@ -1,0 +1,20 @@
+gdb 就等於有 trace，用 gdb 可以接 SIGTRAP Signal。
+
+
+sudo gdb ./traceme2
+
+start
+
+持續執行 n 及 p output，直到 output 放完 flag。
+
+
+ASM{a_Pr0ce55_can_b_trac3d_0n1Y_0nc3}
+
+
+
+// kevin
+gdb ./traceme2
+b exit
+run
+c
+p output

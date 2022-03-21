@@ -1,0 +1,3 @@
+用範例程式 counter.c，計算出 instructions 數量，得到結果 493033。
+
+ASM{493033}
